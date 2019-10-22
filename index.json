@@ -45,10 +45,6 @@
       "title": "Overwriting System Components"
     }
   ],
-  {
-    "file": "setting_up_https.md",
-    "title": "Setting Up HTTPS"
-  },
   [
     "web_services_framework",
     {
