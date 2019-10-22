@@ -1,0 +1,94 @@
+[
+  {
+    "file": "introduction.md",
+    "title": "Introduction"
+  },
+  {
+    "file": "quick_start.md",
+    "title": "Quick Start"
+  },
+  [
+    "application_development_lifecycle",
+    {
+      "file": "overview.md",
+      "title": "Overview"
+    },
+    {
+      "file": "creating_starter_application.md",
+      "title": "Creating Starter Application"
+    },
+    {
+      "file": "application_development.md",
+      "title": "Application Development"
+    },
+    {
+      "file": "application_deployment.md",
+      "title": "Application Deployment"
+    }
+  ],
+  [
+    "customizing_your_application",
+    {
+      "file": "creating_custom_look_and_feel.md",
+      "title": "Creating Custom Look & Feel"
+    },
+    {
+      "file": "configuration_parameters.md",
+      "title": "Configuration Parameters"
+    },
+    {
+      "file": "internationalization.md",
+      "title": "Internationalization"
+    },
+    {
+      "file": "overwriting_system_components.md",
+      "title": "Overwriting System Components"
+    }
+  ],
+  {
+    "file": "setting_up_https.md",
+    "title": "Setting Up HTTPS"
+  },
+  [
+    "web_services_framework",
+    {
+      "file": "framework_overview.md",
+      "title": "Framework Overview"
+    },
+    {
+      "file": "service_registration.md",
+      "title": "Service Registration"
+    },
+    {
+      "file": "implementing_web_service.md",
+      "title": "Implementing Web Service"
+    },
+    {
+      "file": "testing_your_service.md",
+      "title": "Testing Your Service"
+    }
+  ],
+  [
+    "developing_portal_components",
+    {
+      "file": "overview.md",
+      "title": "Overview"
+    },
+    {
+      "file": "component_property_editor.md",
+      "title": "Component Property Editor"
+    },
+    {
+      "file": "calling_web_services.md",
+      "title": "Calling Web Services"
+    },
+    {
+      "file": "component_internationalization.md",
+      "title": "Component Internationalization"
+    },
+    {
+      "file": "loading_external_javascript_files.md",
+      "title": "Loading External Javascript Files"
+    }
+  ]
+]
