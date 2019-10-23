@@ -75,6 +75,10 @@
       "title": "Component Property Editor"
     },
     {
+      "file": "customizing_component_menu.md",
+      "title": "Customizing Component Menu"
+    },
+    {
       "file": "calling_web_services.md",
       "title": "Calling Web Services"
     },
