@@ -8,22 +8,9 @@ $ singlepage build
 $ node ./dist/bin/spstart.js
 ```
 ## Deploy Application
-In general, you can simply copy the dist directory to your production environment to deploy it. Additional steps such as installing node and running `npm install` may be needed depending on your hosting provider and your method of deployment. Singlepage relies on some environment variables that control aspects of its runtime behavior. We recommend using your hosting providers mechanism for setting these environment variables but you can also define them in the .env file in the root directory of your distribution. The environment variables recognized by Singlepage are listed below.
-### Environment variables
-|Variable|Description|
-|--------|-----------|
-|PORT| HTTP Port  |
-|HTTPS_PORT| HTTPS Port. Only needed if the server is not running behind a proxy or you want the communication between the server and proxy to be encrypted as well.
-|HTTPS_CERT|Path to the HTTPS certificate file or Base64 encoded certificate|
-|HTTPS_KEY|Path to the certificate key file or Base64 encoded key|
-NODE_ENV| Must be set to `production` or unset|
-|SP_USER_NAME|Admin user login name. Applicable only in the single user mode|
-|SP_PASSWORD|Admin user password. Applicable only in the single user mode|
-|SP_SESSION_KEY|Session key used to encrypt session cookie. Must be 8 alphanumeric characters|
-|SMTP_HOST| Host address of SMTP server|
-|SMTP_PORT| SMTP server port|
-|SMTP_USER| SMTP connection user name|
-|SMTP_PASSWORD| SMTP connection password|
+In general, you can simply copy the dist directory to your production environment to deploy it. Additional steps such as installing node and running `npm install` may be needed depending on your hosting provider and your method of deployment. Singlepage relies on some environment variables that control aspects of its runtime behavior. We recommend using your hosting providers mechanism for setting these environment variables but you can also define them in the .env file in the root directory of your distribution. Please see `Environment Variables` section for
+more details.
+
 
 ### Deploy Application to Heroku
 Heroku uses git to push a Web application for deployment, so you will need both git and Heroku CLI to complete the deployment step below.

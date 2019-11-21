@@ -12,9 +12,9 @@ configuration settings is given in the tables below.
 |  CDN_URL| /sp-files| Set it to CDN URL when the client files are delivered over a CDN or another server
 |  SERVICE_URL| null| Set it to `singlepage-js` server URL. Only needed if client files are delivered by another server or CDN|
 |  IS_MULTI_SITE| false| Currently unsupported|
-|  IS_MULTI_USER| false| Currently unsupported|
+|  IS_MULTI_USER| true| Login button is displayed on top if this flag is set to true. If this is false, the app developer can log in by visiting `<app-url>/#/login` page|
 |  IS_SELF_REGISTRATION_ALLOWED| false| Currently unsupported|
-|  PASSWORD_REGEX| /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})/| Regex the password must comply with. Currently unused.|
+|  PASSWORD_REGEX| /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})/| Regex the password must comply with.|
 |  LOGIN_PREREQS| ['tou_check'] | Currently unsupported |
 
 ## Server Configuration Parameters

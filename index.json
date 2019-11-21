@@ -33,8 +33,16 @@
       "title": "Creating Custom Look & Feel"
     },
     {
+      "file": "environment_variables.md",
+      "title": "Environment Variables"
+    },
+    {
       "file": "configuration_parameters.md",
       "title": "Configuration Parameters"
+    },
+    {
+      "file": "site_configuration.md",
+      "title": "Site Configuration"
     },
     {
       "file": "internationalization.md",
